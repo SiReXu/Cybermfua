@@ -129,10 +129,10 @@ gitGraph
 
 | Роль | Участник | Зона ответственности |
 |---|---|---|
-| 👑 Тимлид | @username | Репозиторий, ревью, README, GitHub Pages |
-| 💻 Программист 1 | @username | `index.html`, `about.html`, общие стили |
-| 🧩 Программист 2 | @username | `games.html`, `prices.html`, JS |
-| 🎨 Программист 3 | @username | `events.html`, `contact.html`, валидация |
+| 👑 Тимлид | Александр Аксёнов | Репозиторий, ревью, README, GitHub Pages |
+| 💻 Программист 1 | Ян Соловьёв  | `index.html`, `about.html`, общие стили |
+| 🧩 Программист 2 | Глеб Каменский | `games.html`, `prices.html`, JS |
+| 🎨 Программист 3 | Варвара Алексеева | `events.html`, `contact.html`, валидация |
 
 > ✏️ Замените `@username` на ваши GitHub-никнеймы, а `YOUR_USERNAME` — на аккаунт тимлида.
 
