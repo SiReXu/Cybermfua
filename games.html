@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Игры — Cybermfua</title>
+  <meta name="description" content="Библиотека игр клуба Cybermfua: шутеры, MOBA, королевские битвы, гонки, спорт и стратегии.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">К содержимому</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo"><img src="images/logo.svg" alt="" width="36" height="36"><span>Cyber<span class="grad">mfua</span></span></a>
+      <button class="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span></button>
+      <nav class="nav" id="nav" aria-label="Главное меню">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О клубе</a></li>
+          <li><a href="games.html" aria-current="page">Игры</a></li>
+          <li><a href="prices.html">Цены</a></li>
+          <li><a href="events.html">Турниры</a></li>
+          <li><a href="contact.html" class="nav-cta">Забронировать</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Библиотека <span class="grad">игр</span></h1>
+        <p class="lead" style="margin-top:14px;">Более 150 игр уже установлены и обновлены. Выбери жанр и приходи играть.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="filters" role="group" aria-label="Фильтр по жанрам">
+          <button class="chip active" data-filter="all">Все</button>
+          <button class="chip" data-filter="shooter">Шутеры</button>
+          <button class="chip" data-filter="moba">MOBA</button>
+          <button class="chip" data-filter="battle">Королевские битвы</button>
+          <button class="chip" data-filter="racing">Гонки</button>
+          <button class="chip" data-filter="sport">Спорт</button>
+          <button class="chip" data-filter="strategy">Стратегии</button>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card card-img" data-genre="shooter"><img src="images/games/shooter.svg" alt="Жанр: шутеры" loading="lazy"><div class="card-body"><span class="tag">Шутеры</span><h3>Тактические шутеры</h3><p>Counter-Strike 2, Valorant, Rainbow Six Siege и другие командные шутеры.</p></div></article>
+          <article class="card card-img" data-genre="moba"><img src="images/games/moba.svg" alt="Жанр: MOBA" loading="lazy"><div class="card-body"><span class="tag">MOBA</span><h3>MOBA-арены</h3><p>Dota 2, League of Legends — собирай команду и штурмуй трон.</p></div></article>
+          <article class="card card-img" data-genre="battle"><img src="images/games/battle.svg" alt="Жанр: королевские битвы" loading="lazy"><div class="card-body"><span class="tag">Королевские битвы</span><h3>Battle Royale</h3><p>Apex Legends, Fortnite, PUBG — выживает сильнейший.</p></div></article>
+          <article class="card card-img" data-genre="racing"><img src="images/games/racing.svg" alt="Жанр: гонки" loading="lazy"><div class="card-body"><span class="tag">Гонки</span><h3>Гоночные симуляторы</h3><p>Forza Horizon, Assetto Corsa, Need for Speed — с рулями и педалями.</p></div></article>
+          <article class="card card-img" data-genre="sport"><img src="images/games/sport.svg" alt="Жанр: спорт" loading="lazy"><div class="card-body"><span class="tag">Спорт</span><h3>Спортивные игры</h3><p>EA Sports FC, NBA 2K, Rocket League — матчи один на один и командой.</p></div></article>
+          <article class="card card-img" data-genre="strategy"><img src="images/games/strategy.svg" alt="Жанр: стратегии" loading="lazy"><div class="card-body"><span class="tag">Стратегии</span><h3>Стратегии</h3><p>Age of Empires, Civilization, StarCraft II — думай на шаг вперёд.</p></div></article>
+        </div>
+        <p style="color:var(--muted);margin-top:24px;">Не нашли свою игру? Напишите нам — установим по запросу.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo"><img src="images/logo.svg" alt="" width="36" height="36"><span>Cyber<span class="grad">mfua</span></span></a>
+          <p style="color:var(--muted);margin-top:12px;">Компьютерный клуб нового поколения. Играй. Побеждай. Повторяй.</p>
+        </div>
+        <div>
+          <h4>Страницы</h4>
+          <ul>
+            <li><a href="about.html">О клубе</a></li>
+            <li><a href="games.html">Игры</a></li>
+            <li><a href="prices.html">Цены</a></li>
+            <li><a href="events.html">Турниры</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Контакты</h4>
+          <ul>
+            <li>г. Москва, ул. Игровая, 10</li>
+            <li><a href="tel:+70000000000">+7 (000) 000-00-00</a></li>
+            <li><a href="mailto:hello@cybermfua.example">hello@cybermfua.example</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy">© <span data-year>2026</span> Cybermfua. Учебный проект.</p>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
