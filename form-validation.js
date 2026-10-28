@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b1d8a"/></linearGradient></defs>
-<rect width="640" height="400" fill="url(#g)"/>
-<g opacity=".15" fill="#fff"><circle cx="540" cy="70" r="120"/><circle cx="90" cy="360" r="90"/></g>
-<g transform="translate(320 170)" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><path d="M0-70l60 30v50c0 40-30 62-60 80-30-18-60-40-60-80v-50z"/><path d="M0-30v60M-25 0h50"/></g>
-<text x="320" y="340" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-weight="800" font-size="40" fill="#fff" letter-spacing="2">MOBA</text>
-</svg>
