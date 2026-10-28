@@ -10,3 +10,4 @@ button { cursor: pointer; background: none; border: 0; }
 table { border-collapse: collapse; width: 100%; }
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
