@@ -11,8 +11,8 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222?logo=github&logoColor=white)
 
-🌐 **Сайт:** https://YOUR_USERNAME.github.io/Cybermfua/
-📦 **Репозиторий:** https://github.com/YOUR_USERNAME/Cybermfua
+🌐 **Сайт:** https://sirexu.github.io/Cybermfua/
+📦 **Репозиторий:** https://github.com/SiReXu/Cybermfua
 
 <img src="images/hero.svg" alt="Cybermfua — превью" width="640">
 
