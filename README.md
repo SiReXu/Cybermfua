@@ -14,7 +14,7 @@
 🌐 **Сайт:** https://sirexu.github.io/Cybermfua/
 📦 **Репозиторий:** https://github.com/SiReXu/Cybermfua
 
-<img src="images/hero.svg" alt="Cybermfua — превью" width="640">
+<img src="images/zones/hero.png" alt="Cybermfua — превью" width="640">
 
 </div>
 
