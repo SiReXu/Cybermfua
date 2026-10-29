@@ -134,7 +134,6 @@ gitGraph
 | 🧩 Программист 2 | Глеб Каменский | `games.html`, `prices.html`, JS |
 | 🎨 Программист 3 | Варвара Алексеева | `events.html`, `contact.html`, валидация |
 
-> ✏️ Замените `@username` на ваши GitHub-никнеймы, а `YOUR_USERNAME` — на аккаунт тимлида.
 
 ## 🚀 Запуск локально
 
